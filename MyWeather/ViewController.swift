@@ -157,6 +157,20 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.weatherItem.count
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "weatherDetail" {
+            
+            let selectedIndexPath = weatherTableView.indexPathForSelectedRow!
+            let itemToSent = weatherItem[selectedIndexPath.row]
+            let destinationVC = segue.destination as! DetailViewController
+            
+            destinationVC.weatherItem = itemToSent
+            destinationVC.cityName = self.rsCity
+            destinationVC.countryCode = self.rsCountry
+            
+        }
+    }
 
 
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2003E9001ECE6F620015F08E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E8FF1ECE6F620015F08E /* DetailViewController.swift */; };
 		20F42E461ECE2AD10031913C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F42E451ECE2AD10031913C /* AppDelegate.swift */; };
 		20F42E481ECE2AD10031913C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F42E471ECE2AD10031913C /* ViewController.swift */; };
 		20F42E4B1ECE2AD10031913C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F42E491ECE2AD10031913C /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2003E8FF1ECE6F620015F08E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		20F42E421ECE2AD00031913C /* MyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F42E451ECE2AD10031913C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F42E471ECE2AD10031913C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				20F42E451ECE2AD10031913C /* AppDelegate.swift */,
 				20F42E471ECE2AD10031913C /* ViewController.swift */,
 				20F42E491ECE2AD10031913C /* Main.storyboard */,
+				2003E8FF1ECE6F620015F08E /* DetailViewController.swift */,
 				20F42E611ECE4B9C0031913C /* WeatherItem.swift */,
 				20F42E4C1ECE2AD10031913C /* Assets.xcassets */,
 				20F42E4E1ECE2AD10031913C /* LaunchScreen.storyboard */,
@@ -162,6 +165,7 @@
 				20F42E481ECE2AD10031913C /* ViewController.swift in Sources */,
 				20F42E461ECE2AD10031913C /* AppDelegate.swift in Sources */,
 				20F42E621ECE4B9C0031913C /* WeatherItem.swift in Sources */,
+				2003E9001ECE6F620015F08E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +329,7 @@
 				20F42E561ECE2AD10031913C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
