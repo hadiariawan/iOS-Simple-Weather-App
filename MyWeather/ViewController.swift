@@ -39,7 +39,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
     }
     
     func currentWeatherRequest(lat : String, long: String) {
-        let endpoint = URL(string: "http://samples.openweathermap.org/data/2.5/forecast/daily?lat=" + lat + "&lon=" + long + "&appid=807d77b4720fb60df97f6f8782915ebd&cnt=15")
+        let endpoint = URL(string: "http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + lat + "&lon=" + long + "&appid=807d77b4720fb60df97f6f8782915ebd&cnt=15&units=metric")
         
         do {
             let reqData = try Data(contentsOf: endpoint!)
